@@ -6,6 +6,14 @@ const userSlice = createSlice({
         user:null,
         isLoading:false
     },
-    
+    reducers:{
+        // actions
+        setUser:(state,action)=>{
+            state.user = action.payload;
+        },
+        setLoading:(state,action)=>{
+            state.isLoading = action.payload;
+        }
+    }
 });
 
