@@ -6,7 +6,8 @@ import {useDispatch} from "react-redux";
 const useUpcomingMovies = async () => {
     const dispatch = useDispatch();
     try {
-        
+        const res = await axios.get(Upcoming_Movie, options);
+        dispatch(getUpcomingMovie(res.data.results));
     } catch (error) {
         
     }
