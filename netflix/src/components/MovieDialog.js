@@ -10,7 +10,8 @@ import { setOpen } from '../redux/movieSlice';
 import VideoBackground from './VideoBackground';
 
 export default function MovieDialog() { 
-  
+  const {open,id} = useSelector(store=>store.movie);
+  const dispatch = useDispatch();
 
   
  
