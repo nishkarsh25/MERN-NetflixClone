@@ -5,4 +5,10 @@ dotenv.config({
     path:"../.env"
 })
 
-
+const databaseConnection = () => {
+    mongoose.connect(process.env.MONGO_URI).then(()=>{
+      
+    }).catch((error)=>{
+    
+    })
+};
