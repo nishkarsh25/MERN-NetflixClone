@@ -8,7 +8,16 @@ import { useEffect } from "react";
 const useMovieById = async (movieId) => {
   const dispatch = useDispatch();
   
-  
+  useEffect(() => {
+    const getMovieById = async () => {
+      try {
+        
+      } catch (error) {
+        
+      }
+    }
+    getMovieById();
+  },[])
 
 }
 
