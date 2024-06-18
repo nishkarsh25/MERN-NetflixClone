@@ -4,5 +4,8 @@ import { getPopularMovie } from '../redux/movieSlice';
 import {useDispatch} from "react-redux";
 
 
-
+const usePopularMovies = async () => {
+    const dispatch = useDispatch();
+    
+}
 
