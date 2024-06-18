@@ -6,7 +6,7 @@ import { getId, setOpen } from '../redux/movieSlice';
 const MovieCard = ({ posterPath,movieId}) => {
   const dispatch = useDispatch();
 
-  
+  if (posterPath === null) return null;
 
   
 
