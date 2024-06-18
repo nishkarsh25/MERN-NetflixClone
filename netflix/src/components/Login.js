@@ -18,7 +18,9 @@ const Login = () => {
 
     const isLoading = useSelector(store=>store.app.isLoading);
  
-    
+    const loginHandler = () => {
+        setIsLogin(!isLogin);
+    }
     
     
     
