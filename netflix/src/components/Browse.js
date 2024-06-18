@@ -26,6 +26,22 @@ const Browse = () => {
             navigate("/");
         }
     }, []);
-    
+    return (
+        <div >
+            <Header />
+            <div>
+                {
+                    toggle ? <SearchMovie /> : (
+                        <>
+                            <MainContainer />
+                            <MovieContainer />
+                        </>
+
+                    )
+                }
+
+            </div>
+        </div>
+    )
 }
 
