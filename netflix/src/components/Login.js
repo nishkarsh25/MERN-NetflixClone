@@ -8,5 +8,19 @@ import {useDispatch, useSelector} from "react-redux";
 import { setLoading, setUser } from '../redux/userSlice';
 
 
+const Login = () => {
+    const [isLogin, setIsLogin] = useState(false);
+    const [fullName, setFullName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
 
+   
+ 
+    
+    
+    
+    
+}
 
