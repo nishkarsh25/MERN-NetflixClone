@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { getId, setOpen } from '../redux/movieSlice';
 
 const MovieCard = ({ posterPath,movieId}) => {
-  
+  const dispatch = useDispatch();
 
   
 
