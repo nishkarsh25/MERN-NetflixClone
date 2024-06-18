@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 
 const useMovieById = async (movieId) => {
-  
+  const dispatch = useDispatch();
   
   
 
