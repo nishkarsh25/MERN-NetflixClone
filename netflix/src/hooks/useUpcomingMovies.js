@@ -12,3 +12,4 @@ const useUpcomingMovies = async () => {
         console.log(error);
     }
 }
+export default useUpcomingMovies;
