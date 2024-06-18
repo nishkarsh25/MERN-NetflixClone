@@ -9,6 +9,6 @@ const useNowPlayingMovies = async () => {
         const res = await axios.get(Now_Playing_Movie, options);
         dispatch(getNowPlayingMovies(res.data.results));
     } catch (error) {
-        
+        console.log(error);
     }
 }
