@@ -15,3 +15,5 @@ const searchSlice = createSlice({
         }
     }
 });
+export const {setSearchMovieDetails} = searchSlice.actions;
+export default searchSlice.reducer;
