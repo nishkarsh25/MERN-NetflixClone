@@ -6,9 +6,9 @@ import {useDispatch} from "react-redux";
 
 const usePopularMovies = async () => {
     const dispatch = useDispatch();
-    
     try {
-        
+        const res = await axios.get(Popular_Movie, options);
+        dispatch(getPopularMovie(res.data.results))
     } catch (error) {
        
     }
