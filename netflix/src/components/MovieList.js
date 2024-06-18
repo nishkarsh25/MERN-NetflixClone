@@ -24,3 +24,4 @@ const MovieList = ({ title, movies,searchMovie=false }) => {
     )
 }
 
+export default MovieList
