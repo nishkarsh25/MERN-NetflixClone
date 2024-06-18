@@ -22,6 +22,7 @@ const useMovieById = async (movieId) => {
         console.log(error);
       }
     }
+    
     getMovieById();
   },[])
 
