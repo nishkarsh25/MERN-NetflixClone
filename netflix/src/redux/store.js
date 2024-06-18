@@ -10,4 +10,4 @@ const store = configureStore({
         searchMovie:searchSlice
     }
 });
-
+export default store;
