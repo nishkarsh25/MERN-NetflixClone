@@ -22,9 +22,9 @@ const useMovieById = async (movieId) => {
         console.log(error);
       }
     }
-    
     getMovieById();
   },[])
 
 }
 
+export default useMovieById;
