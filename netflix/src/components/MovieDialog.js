@@ -17,5 +17,23 @@ export default function MovieDialog() {
     dispatch(setOpen(false));
   }
  
-  
+  return (
+    <React.Fragment>
+      
+      <Dialog
+        open={open}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description" 
+      >
+       <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            <VideoBackground movieId={id} bool = {true}/>
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>Cancel</Button>
+        </DialogActions>
+      </Dialog>
+    </React.Fragment>
+  );
 }
