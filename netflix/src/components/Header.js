@@ -27,7 +27,9 @@ const Header = () => {
         }
     }
 
-    
+    const toggleHandler = () => {
+        dispatch(setToggle());
+    }
  
     
 }
