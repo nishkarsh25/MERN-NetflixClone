@@ -7,5 +7,10 @@ import {useDispatch} from "react-redux";
 const usePopularMovies = async () => {
     const dispatch = useDispatch();
     
+    try {
+        
+    } catch (error) {
+       
+    }
 }
 
