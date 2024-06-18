@@ -4,5 +4,6 @@ import MovieCard from './MovieCard'
 const MovieList = ({ title, movies,searchMovie=false }) => {
 
     
+    
 }
 
