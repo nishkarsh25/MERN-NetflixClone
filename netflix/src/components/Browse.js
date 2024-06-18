@@ -21,7 +21,11 @@ const Browse = () => {
     useTopRatedMovies();
     useUpcomingMovies();
 
-    
+    useEffect(() => {
+        if (!user) {
+            navigate("/");
+        }
+    }, []);
     
 }
 
