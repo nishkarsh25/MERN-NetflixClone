@@ -15,6 +15,10 @@ const MovieCard = ({ posterPath,movieId}) => {
     dispatch(setOpen(true));
   }
 
-  
+  return (
+    <div className='w-48 pr-2' onClick={handleOpen}>
+      <img src={`${TMDB_IMG_URL}/${posterPath}`} alt="movie-banner" />
+    </div>
+  )
 }
 
