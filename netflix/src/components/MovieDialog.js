@@ -13,7 +13,9 @@ export default function MovieDialog() {
   const {open,id} = useSelector(store=>store.movie);
   const dispatch = useDispatch();
 
-  
+  const handleClose = () =>{
+    dispatch(setOpen(false));
+  }
  
   
 }
