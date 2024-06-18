@@ -9,7 +9,9 @@ import cors from "cors";
 
 databaseConnection();
 
-
+dotenv.config({
+    path:".env"
+})
 
 
 
