@@ -12,3 +12,4 @@ const useNowPlayingMovies = async () => {
         console.log(error);
     }
 }
+export default useNowPlayingMovies;
