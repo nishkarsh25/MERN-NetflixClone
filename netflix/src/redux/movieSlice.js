@@ -40,3 +40,5 @@ const movieSlice = createSlice({
         }
     }
 });
+export const {getNowPlayingMovies, getPopularMovie, getTopRatedMovie, getUpcomingMovie,setToggle,getTrailerMovie,setOpen,getId} = movieSlice.actions;
+export default movieSlice.reducer;
