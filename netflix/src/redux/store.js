@@ -10,3 +10,4 @@ const store = configureStore({
         searchMovie:searchSlice
     }
 });
+
