@@ -12,3 +12,4 @@ const useTopRatedMovies = async () => {
         console.log(error);
     }
 }
+export default useTopRatedMovies;
