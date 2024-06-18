@@ -22,3 +22,4 @@ const MovieCard = ({ posterPath,movieId}) => {
   )
 }
 
+export default MovieCard;
