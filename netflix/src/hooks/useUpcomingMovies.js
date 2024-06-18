@@ -5,5 +5,9 @@ import {useDispatch} from "react-redux";
 
 const useUpcomingMovies = async () => {
     const dispatch = useDispatch();
-    
+    try {
+        
+    } catch (error) {
+        
+    }
 }
