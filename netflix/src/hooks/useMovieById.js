@@ -19,7 +19,7 @@ const useMovieById = async (movieId) => {
         })
         dispatch(getTrailerMovie(trailer.length > 0 ? trailer[0] : res.data.results[0]));
       } catch (error) {
-        
+        console.log(error);
       }
     }
     getMovieById();
