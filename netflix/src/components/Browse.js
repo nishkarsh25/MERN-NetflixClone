@@ -10,5 +10,13 @@ import useTopRatedMovies from '../hooks/useTopRatedMovies';
 import useUpcomingMovies from '../hooks/useUpcomingMovies';
 import SearchMovie from './SearchMovie';
 
+const Browse = () => {
+    const user = useSelector(store => store.app.user);
+    const toggle = useSelector(store => store.movie.toggle);
+    const navigate = useNavigate();
 
+    
+    
+    
+}
 
