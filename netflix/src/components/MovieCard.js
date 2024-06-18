@@ -10,7 +10,10 @@ const MovieCard = ({ posterPath,movieId}) => {
 
   
 
-  
+  const handleOpen = () => {
+    dispatch(getId(movieId));
+    dispatch(setOpen(true));
+  }
 
   
 }
