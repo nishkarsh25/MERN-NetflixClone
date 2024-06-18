@@ -14,3 +14,4 @@ const usePopularMovies = async () => {
     }
 }
 
+export default usePopularMovies
