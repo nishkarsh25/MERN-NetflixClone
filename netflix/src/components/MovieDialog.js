@@ -9,3 +9,10 @@ import {useSelector,useDispatch} from "react-redux";
 import { setOpen } from '../redux/movieSlice';
 import VideoBackground from './VideoBackground';
 
+export default function MovieDialog() { 
+  
+
+  
+ 
+  
+}
