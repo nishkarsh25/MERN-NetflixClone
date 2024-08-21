@@ -32,7 +32,7 @@ This project is a Netflix clone built using the MERN stack (MongoDB, Express, Re
 
 ## Live Demo
 
-You can try out the live demo of the app [here](https://mern-socket-realtimechatapplicaton.onrender.com/).
+You can try out the live demo of the app [here](https://mern-netflixclone-2.onrender.com).
 
 ## Folder Structure
 
