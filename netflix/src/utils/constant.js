@@ -1,4 +1,4 @@
-export const API_END_POINT = "http://localhost:8080/api/v1/user";
+export const API_END_POINT = "https://mern-netflixclone-2.onrender.com/api/v1/user";
 
 export const options = {
     method: 'GET',
